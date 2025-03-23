@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <center className="font-poppins mt-64">
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center block">
         <div className="w-100 mr-10">
           <h1 className="text-5xl text-left text-[#008B8B]">Hi, I'm Rafat</h1>
           <div className="mt-8 text-xl text-left">
@@ -24,8 +24,8 @@ function App() {
         </div>
         <img className="rounded-full w-80" src={pfp} />
       </div>
-      <div className="mt-80 text-5xl text-[#008B8B]">About Me</div>
-      <div className="mt-5 text-xl w-3/4">
+      <div className="mt-80 text-5xl text-[#008B8B] block">About Me</div>
+      <div className="mt-5 text-xl w-3/4 block">
         Hello! My name is Rafat. I am a 3rd year computer science student
         studying at York University. I primarily have a programming background,
         and have been developing ever since I was in 10th grade. I’m interested
@@ -52,9 +52,9 @@ function App() {
         inspiring teacher, who wasn’t afraid to test our limits when it came to
         testing our knowledge in computer science
       </div>
-      <div className="mt-80 text-5xl text-[#008B8B]">Experience</div>
+      <div className="mt-80 text-5xl text-[#008B8B] block">Experience</div>
       <div className="mt-20 text-left">
-        <VerticalTimeline>
+        <VerticalTimeline className="block">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -101,8 +101,8 @@ function App() {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-      <div className="mt-80 text-5xl text-[#008B8B]">Projects</div>
-      <div className="mt-10 flex justify-center mb-40 ">
+      <div className="mt-80 text-5xl text-[#008B8B] block">Projects</div>
+      <div className="mt-10 flex justify-center mb-40 block">
         <div className="mx-20 p-5 border rounded-xl bg-white w-120">
           <img className="rounded-3xl" src={mediaVoyage} />
           <div className="mt-7 text-3xl text-[#008B8B]">Media Voyage</div>
