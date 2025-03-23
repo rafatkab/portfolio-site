@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import pfp from "./images/pfp.jpeg";
 import mediaVoyage from "./images/media-voyage.png";
 import viewrify from "./images/Viewrify.png";
@@ -10,6 +7,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+
 function App() {
   return (
     <center className="font-poppins mt-64">
