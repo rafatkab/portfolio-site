@@ -50,6 +50,87 @@ function App() {
         inspiring teacher, who wasn’t afraid to test our limits when it came to
         testing our knowledge in computer science
       </div>
+      <div className="mt-80 text-5xl text-[#008B8B] block">My Goals</div>
+      <div className="mt-5 text-xl text-left w-3/4 block">
+        <strong className="text-2xl">
+          Critical thinking and problem-solving skills
+        </strong>
+        <br />
+        By March 3rd, have sufficient knowledge of the codebase architecture and
+        the different concepts used in what I’m working with, getting sufficient
+        assistance from my mentor to improve my knowledge
+        <br />
+        <br />
+        By April 1st, get well-versed with the languages and technologies I’m
+        working with, mainly Azure, C#, and React. I’ll do this by reading up
+        documentation and self-learning.
+        <br />
+        <br />
+        This competency is important to my development. As a developer, I’m
+        constantly trying to find ways to find solutions to real world problems.
+        Things that include optimizing performance to give out efficient
+        solutions to clients, debugging and troubleshooting to fix a certain bug
+        in the codebase, and understanding abstract concepts such as data
+        structures and algorithms. I’m still learning how to critically think
+        and problem solve, and I believe this internship will truly evolve my
+        way of thinking when I’m finished. Agility and Adaptability skills
+        <br />
+        <br />
+        <strong className="text-2xl">Agility and Adaptability skills</strong>
+        <br />
+        By June 16th, I will be doing at least 4-6 tickets per sprint to go
+        above and beyond my manager’s expectations, and I will accomplish this
+        by using my hours efficiently to make sure no time goes to waste while
+        working.
+        <br />
+        <br />
+        By Augest 15th, I’ll have done at least 200 leetcode problems to
+        solidify my skills in data structures and algorithms, by doing 1
+        leetcode problem a day and consulting with my coworkers if I’m ever
+        stuck on a problem.
+        <br />
+        <br />
+        This competency is important to my development. The modern world is
+        constantly changing, and this is no different in the world of tech. With
+        the vast growth of Artificial Intelligence, and the emergence of General
+        AI, I need to constantly be adapting to these new technologies. I need
+        to constantly learn about them, see how they work, and even implement
+        them to keep up my skills and relevancy as a developer. Technology isn’t
+        the only thing that I need to adapt to, but rather I also need to adapt
+        to my team’s coding styles, and communication styles. This is especially
+        important since I’m going to be working with many teams and many
+        different types of people in the workforce. In a field like computer
+        science, you either have to constantly adapt and keep up to the changing
+        world around you, or get left behind without the relevant knowledge to
+        survive in the work force.
+        <br />
+        <br />
+        <strong className="text-2xl">
+          Initiative-taking and entrepreneurial skills
+        </strong>
+        <br />
+        By May 30th, I will launch a new feature in the frontend and backend,
+        and will present it in a demo. I will accomplish this by getting big
+        tickets from my team or participating in a project with other coworkers
+        <br />
+        <br />
+        By April 12th, I’ll have connected with at least 4 professionals from my
+        company, and develop a deep connection with them. I’ll do this through
+        going to company webinars, coffee chats, business opportunities, etc.
+        <br />
+        <br />
+        This competancy is important to my development. Taking initiative not
+        only ties into my entrepreneurial skills, but it also shows that I’m
+        willing to go above and beyond when it comes to completing my tasks, and
+        that I’m always on the lookout for new opportunities. It shows that I’m
+        willing to take the step-up and make strategic and high-pressure
+        decisions in a fast-paced environment. Especially since I’m a software
+        developer, it shows that I’m always innovating and looking for growth
+        inside my company, including thinking of new ways a part of the new
+        feature I’m developing can be tackled. I’m also doing various side
+        projects during my degree, so my entrepreneurial skills will definitely
+        come into play as I’m developing these by myself.
+      </div>
       <div className="mt-80 text-5xl text-[#008B8B] block">Experience</div>
       <div className="mt-20 text-left">
         <VerticalTimeline className="block">
