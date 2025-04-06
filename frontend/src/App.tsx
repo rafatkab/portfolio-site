@@ -2,6 +2,7 @@ import pfp from "./images/pfp.jpeg";
 import mediaVoyage from "./images/media-voyage.png";
 import viewrify from "./images/Viewrify.png";
 import ujourney from "./images/ujourney.png";
+import video from "./images/Rafat_Why_Me.mp4";
 import "react-vertical-timeline-component/style.min.css";
 import {
   VerticalTimeline,
@@ -49,6 +50,15 @@ function App() {
         programming and developing. He was a very thought-provoking and
         inspiring teacher, who wasn’t afraid to test our limits when it came to
         testing our knowledge in computer science
+      </div>
+      <div>
+        <video className="mt-20 rounded-3xl" width="40%" controls>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="mt-5 text-xl text-[#008B8B]">
+          An informative video about who I am
+        </div>
       </div>
       <div className="mt-80 text-5xl text-[#008B8B] block">My Goals</div>
       <div className="mt-5 text-xl text-left w-3/4 block">
