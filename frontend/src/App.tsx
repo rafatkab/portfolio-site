@@ -2,7 +2,6 @@ import pfp from "./images/pfp.jpeg";
 import mediaVoyage from "./images/media-voyage.png";
 import viewrify from "./images/Viewrify.png";
 import ujourney from "./images/ujourney.png";
-import video from "./images/Rafat_Why_Me.mp4";
 import "react-vertical-timeline-component/style.min.css";
 import {
   VerticalTimeline,
@@ -56,7 +55,6 @@ function App() {
           <iframe
             className="w-4/5"
             allow="fullscreen"
-            allowfullscreen
             height="100%"
             src="https://streamable.com/e/bsh311?"
             width="100%"
