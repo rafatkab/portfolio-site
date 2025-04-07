@@ -51,11 +51,17 @@ function App() {
         inspiring teacher, who wasn’t afraid to test our limits when it came to
         testing our knowledge in computer science
       </div>
-      <div>
-        <video className="mt-20 rounded-3xl" width="40%" controls>
-          <source src={video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div className="w-4/5">
+        <div className="mt-20 w-4/5 rounded-3xl">
+          <iframe
+            className="w-4/5"
+            allow="fullscreen"
+            allowfullscreen
+            height="100%"
+            src="https://streamable.com/e/bsh311?"
+            width="100%"
+          />
+        </div>
         <div className="mt-5 text-xl text-[#008B8B]">
           An informative video about who I am
         </div>
